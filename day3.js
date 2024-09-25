@@ -81,4 +81,5 @@ console.log(x.charAt(0));
 
 console.log(x.length);
 
+console.log(x);
 
