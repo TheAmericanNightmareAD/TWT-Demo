@@ -73,7 +73,7 @@ function checkLongestString(sentence) {
   return longestWord;
 }
 
-console.log(checkLongestString("I love javascript and hate it at the same time"))
+console.log(checkLongestString("I love javascrip4454t and hate it at the same time"))
 
 
 ///check the longest string 
@@ -89,3 +89,18 @@ function checkthelongeststring(sentence1){
   return longestwordIs
 }
 console.log(checkLongestString ("lovedi sidk iskfu lkfkohidsofkdsj sld"));
+
+
+///
+function lonestString(sen){
+  let b=sen.split(' ');
+  let longestWords= ' ';
+
+  for ( let a of b){
+    if(a.length > longestWords){
+longestWords=a;
+    }
+  }
+  return longestWords
+}
+console.log(lonestString ("world hello worlds environmnent"));

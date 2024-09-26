@@ -116,3 +116,8 @@ if (Marks>90) {// 55>90=false
   console.log("You are Fail");
   
 }
+
+/*
+Odd Number- not divisible by 2
+Evenn Number- divisible by 2
+*/
